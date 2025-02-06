@@ -30,9 +30,35 @@
                     <li><b>HOBBIES:</b>Baking and decorating cakes</li>
                 </ul>
                 <hr>
-                <video width="300" height="300" controls>
+                <video id ="hobby" width="300" height="300" >
                     <source src="cake.mp4" type="video/mp4">
                 </video>
+                <br>
+                <button onclick="playVideo()">
+                    PLAY
+                </button>
+
+                <button onclick="pauseVideo()">
+                    PAUSE
+                </button> 
+                <input type = 'range' id = "volumeControl" min = '0' max = '1' step = '0.1' value = '1' onchange="adjustVolume()">
+                <label for = 'volumeControl'>
+                    VOLUME
+                </label>
+                
+
+                <script>
+                    const video = document.getElementById("hobby");
+                        function playVideo() {
+                            video.play();
+                        }
+                        function pauseVideo() {
+                            video.pause();
+                        }
+                        function adjustVolume() {
+                            video.volume = document.getElementById("volumeControl").value;
+                        }
+                </script>
                 <br>
                 <hr>
                 <h3 style="color: rgb(42, 42, 110) ;">CAREER GOALS</h3>
@@ -47,7 +73,7 @@
                         baking by making and selling<br> cakes as a side business, combining my 
                         technical aspirations with my <br>entrepreneurial spirit.</h4>
 
-
+                        <hr>
                 
                 <table style="border-collapse: collapse; width: 100%;">
                     <caption style="font-weight: bold; margin-bottom: 8px;">YEAR 1   -   SEMESTER 1     -  GPA 4.19</caption>
