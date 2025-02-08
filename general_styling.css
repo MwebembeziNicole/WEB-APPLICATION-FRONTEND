@@ -1,0 +1,37 @@
+
+body{
+    background-color: rgb(129, 86, 22);
+}
+h3{
+    color:rgb(222, 201, 2);
+    font-size: 40px;
+    background-color: #34db37; /* Blue background */
+     /* White text */
+    padding: 10px 20px; /* Space inside the box */
+    display: inline-block; /* Makes the background fit the text */
+    border-radius: 5
+
+}
+h1 {
+    color: rgb(222, 201, 2); /* Yellow text */
+    font-size: 40px;
+    background-color: #34db37; /* Green background */
+    padding: 10px 20px; /* Space inside the box */
+    display: block; /* Allows margin: auto to work */
+    width: 50%; /* Adjust width as needed */
+    margin: auto; /* Centers the block element */
+    text-align: center; /* Ensures text inside stays centered */
+    border-radius: 5px; /* Corrected border-radius */
+}
+
+
+li{
+    font-size: 15px;
+    color: rgb(222, 201, 2);
+}
+
+img{
+    border-radius: 50%;
+    
+
+}
