@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="">
     <title>Website Document</title>
 </head>
-<body style="background-color: rgb(222, 184, 135);">
+<body>
 
-    <div id="container" style="display:flex;align-items:center;justify-content:center">
-        <div id="Heading">
+    <div>
+        <div>
             <h1 style="color: rgb(42, 42, 110) ;">MY PROFILE</h1>
-            <h2 style="color: rgb(42, 42, 110) ;">NAME: MWEBEMBEZI NICOLE MBABAZI</h2>
+            <h1 style="color: rgb(42, 42, 110) ;">NAME: MWEBEMBEZI NICOLE MBABAZI</h1>
             <h4>I am 22 year old female student at Uganda Christian University offering a Bachelor of Science<br>
                 in Computer Science.My passion in the IT world is Dta Care and cybersecurity.
                  I enjoy <br>watching movies and hanging out with my friends.</h4>
@@ -30,48 +30,24 @@
                     <li><b>HOBBIES:</b>Baking and decorating cakes</li>
                 </ul>
                 <hr>
-                <video id ="hobby" width="300" height="300" >
+                <video id ="hobby" width="300" height="300" controls >
                     <source src="cake.mp4" type="video/mp4">
                 </video>
                 <br>
-                <button onclick="playVideo()">
-                    PLAY
-                </button>
-
-                <button onclick="pauseVideo()">
-                    PAUSE
-                </button> 
-                <input type = 'range' id = "volumeControl" min = '0' max = '1' step = '0.1' value = '1' onchange="adjustVolume()">
-                <label for = 'volumeControl'>
-                    VOLUME
-                </label>
-                
-
-                <script>
-                    const video = document.getElementById("hobby");
-                        function playVideo() {
-                            video.play();
-                        }
-                        function pauseVideo() {
-                            video.pause();
-                        }
-                        function adjustVolume() {
-                            video.volume = document.getElementById("volumeControl").value;
-                        }
-                </script>
+               
                 <br>
                 <hr>
                 <h3 style="color: rgb(42, 42, 110) ;">CAREER GOALS</h3>
                 <h4>As a Computer Science student, my academic goal is to specialize 
-                    in Data Science <br>and Cybersecurity, gaining the necessary skills to
-                    analyze complex data and protect<br> digital systems from threats. I aim
-                     to excel in my coursework, participate in hands<br>-on projects, and build
-                      a strong portfolio that showcases my expertise in these fields. <br>My
+                    in Data Science and Cybersecurity, gaining the necessary skills to
+                    analyze complex data and protect digital systems from threats. I aim
+                     to excel in my coursework, participate in hands-on projects, and build
+                      a strong portfolio that showcases my expertise in these fields. My
                       ultimate goal is to secure a position at Centenary Bank, where I 
-                      can apply my <br>knowledge to enhance data security and decision-making
-                       processes. Alongside <br>my studies, I also plan to pursue my passion for
-                        baking by making and selling<br> cakes as a side business, combining my 
-                        technical aspirations with my <br>entrepreneurial spirit.</h4>
+                      can apply my knowledge to enhance data security and decision-making
+                       processes. Alongside my studies, I also plan to pursue my passion for
+                        baking by making and selling cakes as a side business, combining my 
+                        technical aspirations with my entrepreneurial spirit.</h4>
 
                         <hr>
                 
